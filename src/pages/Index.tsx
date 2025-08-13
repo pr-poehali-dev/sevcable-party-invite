@@ -156,7 +156,7 @@ const Index = () => {
               <CardContent className="space-y-4">
                 <div className="text-6xl font-bold text-red-500">15</div>
                 <div className="text-2xl">АВГУСТА</div>
-                <div className="text-lg text-gray-300">ЧЕТВЕРГ</div>
+                <div className="text-lg text-gray-300">ПЯТНИЦА</div>
                 <Button className="w-full bg-red-500 hover:bg-red-600 text-lg py-3">
                   ВЫБРАТЬ ДАТУ
                 </Button>
@@ -167,7 +167,7 @@ const Index = () => {
               <CardContent className="space-y-4">
                 <div className="text-6xl font-bold text-red-500">16</div>
                 <div className="text-2xl">АВГУСТА</div>
-                <div className="text-lg text-gray-300">ПЯТНИЦА</div>
+                <div className="text-lg text-gray-300">СУББОТА</div>
                 <Button className="w-full bg-red-500 hover:bg-red-600 text-lg py-3">
                   ВЫБРАТЬ ДАТУ
                 </Button>
