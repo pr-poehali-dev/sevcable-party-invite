@@ -19,7 +19,7 @@ const Index = () => {
         
         <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
           <h1 className="text-6xl md:text-8xl font-montserrat font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
-            PARTY
+            ТУСОВКА С ПЕРЕВЕРТУН
           </h1>
           <p className="text-2xl md:text-3xl mb-8 text-gray-300 font-light">
             В СЕВКАБЕЛЬ ПОРТУ
@@ -42,15 +42,15 @@ const Index = () => {
               15 АВГУСТА
             </Button>
             <Button
-              onClick={() => setSelectedDate('18.08')}
-              variant={selectedDate === '18.08' ? 'default' : 'outline'}
+              onClick={() => setSelectedDate('16.08')}
+              variant={selectedDate === '16.08' ? 'default' : 'outline'}
               className={`text-lg py-6 px-8 transition-all duration-300 ${
-                selectedDate === '18.08' 
+                selectedDate === '16.08' 
                   ? 'bg-red-500 hover:bg-red-600 text-white' 
                   : 'border-red-500 text-red-500 hover:bg-red-500 hover:text-white'
               }`}
             >
-              18 АВГУСТА
+              16 АВГУСТА
             </Button>
           </div>
           
@@ -61,6 +61,9 @@ const Index = () => {
               </Button>
             </div>
           )}
+          <div className="text-yellow-400 text-lg font-semibold mt-6">
+            ⚠️ МЕСТА ОГРАНИЧЕНЫ ⚠️
+          </div>
         </div>
       </section>
 
@@ -162,9 +165,9 @@ const Index = () => {
 
             <Card className="bg-gray-800 border-gray-700 p-8">
               <CardContent className="space-y-4">
-                <div className="text-6xl font-bold text-red-500">18</div>
+                <div className="text-6xl font-bold text-red-500">16</div>
                 <div className="text-2xl">АВГУСТА</div>
-                <div className="text-lg text-gray-300">ВОСКРЕСЕНЬЕ</div>
+                <div className="text-lg text-gray-300">ПЯТНИЦА</div>
                 <Button className="w-full bg-red-500 hover:bg-red-600 text-lg py-3">
                   ВЫБРАТЬ ДАТУ
                 </Button>
@@ -183,16 +186,11 @@ const Index = () => {
               <CardContent className="space-y-6">
                 <div className="space-y-4">
                   <div className="flex items-center justify-center gap-3">
-                    <Icon name="Phone" className="text-red-500" size={24} />
-                    <span className="text-xl">+7 (812) 123-45-67</span>
+                    <Icon name="MessageCircle" className="text-red-500" size={24} />
+                    <span className="text-xl">Telegram: @xentarri</span>
                   </div>
-                  <div className="flex items-center justify-center gap-3">
-                    <Icon name="Mail" className="text-red-500" size={24} />
-                    <span className="text-xl">party@sevkabel.ru</span>
-                  </div>
-                  <div className="flex items-center justify-center gap-3">
-                    <Icon name="Instagram" className="text-red-500" size={24} />
-                    <span className="text-xl">@sevkabel_party</span>
+                  <div className="text-lg text-yellow-400 font-semibold mt-4">
+                    ⚠️ МЕСТА ОГРАНИЧЕНЫ ⚠️
                   </div>
                 </div>
                 <Button className="w-full max-w-md mx-auto bg-red-500 hover:bg-red-600 text-xl py-4">
